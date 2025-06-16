@@ -29,9 +29,10 @@ println!("Previsão: {:.2}", previsao);
 // Métricas
 println!("R²: {:.4}", modelo.calcular_r2(&dados).unwrap());
 println!("MSE: {:.4}", modelo.calcular_mse(&dados).unwrap());
-
+```
 
 
 ## Rodar testes
 ```bash
 cargo test
+```
